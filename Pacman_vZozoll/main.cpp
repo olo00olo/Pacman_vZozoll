@@ -24,7 +24,7 @@ int main()
 
         for (int i = 0; i < map.ilosc_wierszy; i++) {           //petla wyswietlajaca odpowiednie elementy na wlasciwych pozycjach
             for (int j = 0; j < map.ilosc_kolumn; j++) {        //na podstawie informacji obiektu abc
-                if (map.tablica[i][j] == 'w') {
+                if (map.tablica[i][j] == 'w') {                 //zozoll
                     window.draw(map.plansza[i][j]);
                 }
                 else if (map.tablica[i][j] == 'o') {
